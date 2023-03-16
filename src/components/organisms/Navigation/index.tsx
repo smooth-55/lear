@@ -34,7 +34,6 @@ const NavRight = styled.div`
     align-items: center;
     color: rgba(0,0,0,0.6);
     gap: 25px;
-    border: 1px solid red;
 `
 
 const Navigation = () => {
