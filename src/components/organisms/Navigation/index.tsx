@@ -15,9 +15,16 @@ import PostJob from "../../../../public/post-a-job.svg";
 import { NavItem, NavItemPointingDown } from "@/components/atoms/NavItem";
 
 const StyledNav = styled.div`
+    position: sticky;
+    top: 0;
     height: 3.2rem;
     display: flex;
     gap: 8rem;
+    padding: 0px 0px 0px -100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
 `
 
 const NavLeft = styled.div`
