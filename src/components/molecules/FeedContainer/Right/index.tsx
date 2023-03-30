@@ -12,13 +12,13 @@ const FeedRightContainerWrapper = styled.div`
             height: 35vh;
             width: 100%;
         }
-        .right__bottom{
-            border:1px solid green;
-            height: 50vh;
-            width: 100%;
-            position: sticky;
-            top: 5rem;
-        }
+    .right__bottom{
+        border:1px solid green;
+        height: 50vh;
+        width: 100%;
+        position: sticky;
+        top: 5rem;
+    }
 `
 const FeedRightContainer = () => {
     return (

@@ -25,7 +25,7 @@ const StyledNav = styled.div`
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-            z-index: 10;
+    z-index: 10;
 
 `
 
