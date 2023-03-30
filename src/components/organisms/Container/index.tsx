@@ -1,17 +1,24 @@
+import FeedContent from "@/components/molecules/FeedContainer/Feed"
+import FeedLeftContainer from "@/components/molecules/FeedContainer/Left"
+import FeedRightContainer from "@/components/molecules/FeedContainer/Right"
 import styled from "styled-components"
 
 
 const ContainerWrapper = styled.div`
-    height: 100vh;
+    height: 500vh;
+    margin-left: 5rem;
     display: flex;
     justify-content: center;
-    align-items:center;
+    gap: 1.5rem;
+    margin-top: 22px;
 
 `
 const FeedContainer = () => {
     return (
         <ContainerWrapper>
-            <h2>Feed page</h2>
+            <FeedLeftContainer />
+            <FeedContent />
+            <FeedRightContainer />
         </ContainerWrapper>
     )
 }
