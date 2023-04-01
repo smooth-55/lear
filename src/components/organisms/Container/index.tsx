@@ -5,7 +5,6 @@ import styled from "styled-components"
 
 
 const ContainerWrapper = styled.div`
-    height: 500vh;
     margin-left: 5rem;
     display: flex;
     justify-content: center;
