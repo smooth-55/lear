@@ -8,16 +8,18 @@ const FeedRightContainerWrapper = styled.div`
     flex-direction: column;
     gap: 15px;
     .about__feed{
-            border:1px solid blue;
             height: 35vh;
             width: 100%;
+            background-color: #fefeff;
+            border-radius: 12px;
         }
     .right__bottom{
-        border:1px solid green;
         height: 50vh;
         width: 100%;
         position: sticky;
         top: 5rem;
+
+
     }
 `
 const FeedRightContainer = () => {
