@@ -1,6 +1,24 @@
-import { Avatar, Divider } from 'antd';
+import { Avatar } from 'antd';
 import { FeedLeftContainerWrapper } from "./index.styled";
+import styled from 'styled-components';
+import { IconText } from '@/components/atoms/IconText';
+import Premium from "../../../../../public/premium.svg";
+import CustomDivider from '@/components/atoms/Divider';
 
+
+const SmallText = styled.p`
+    font-weight: 400;
+    font-size: 12px;
+    color:  rgba(0, 0, 0, 0.6);
+    width: 100%;
+`
+
+const FreeItemWrapper = styled.div`
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    
+`
 
 
 const FeedLeftContainer = () => {
@@ -27,16 +45,12 @@ const FeedLeftContainer = () => {
                                 color: " rgba(0, 0, 0, 0.9)",
                             }}
                         >Ashish Dhakal</h4>
-                        <p
-                            style={{
-                                fontWeight: "400",
-                                fontSize: "12px",
-                                color: " rgba(0, 0, 0, 0.6)",
-                            }}
-                        >Software Engineer | Go | Python | Django |</p>
+                        <SmallText
+
+                        >Software Engineer | Go | Python | Django |</SmallText>
                     </div>
-                    <Divider />
-                    <div className="pv">
+                    <CustomDivider />
+                    <div className="pv" >
 
                         <div
                             className="profile__view"
@@ -55,7 +69,24 @@ const FeedLeftContainer = () => {
                             <h6 className='action'>581</h6>
                         </div>
                     </div>
-                    <Divider />
+                    <CustomDivider />
+                    <FreeItemWrapper>
+
+                        <a
+                            href='#'
+                            style={{
+                                color: "rgba(0, 0, 0, 0.6)",
+
+                            }}
+                        > <SmallText>Access exclusive tools & insights</SmallText> </a>
+
+                        <IconText
+                            Icon={Premium}
+                            title={"Try premium for free"}
+
+                        />
+                    </FreeItemWrapper>
+                    <CustomDivider />
                 </div>
 
             </div>
