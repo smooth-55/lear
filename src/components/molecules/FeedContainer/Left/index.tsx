@@ -46,7 +46,7 @@ const FeedLeftContainer = () => {
                             }}
                         >Ashish Dhakal</h4>
                         <SmallText
-
+                            style={{ textAlign: "center" }}
                         >Software Engineer | Go | Python | Django |</SmallText>
                     </div>
                     <CustomDivider />
